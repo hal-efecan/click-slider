@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#slideshow {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 50px auto 0 auto;
+    position: relative;
+}
+
+#one {
+    background-color: lightseagreen;
+}
+#two {
+    background-color: rgb(223, 177, 134);
+}
+#three {
+    background-color: rgb(211, 138, 230);
+}
+
+#prevBtn {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+#nextBtn {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+#btnOne, #btnTwo, #btnThree {
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slideshow-item {
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    position: absolute;
+    opacity: 1 !important;
+}
+
+.move-left {
+    transform: translateX(-100%) !important;
+}
