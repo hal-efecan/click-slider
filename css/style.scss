@@ -28,17 +28,21 @@
     bottom: 50%;
     transform: translateY(50%);
     cursor: pointer;
+    padding: 3px 15px 3px 15px;
 }
+
 #nextBtn {
     position: absolute;
     right: 0;
     bottom: 50%;
     transform: translateY(50%);
     cursor: pointer;
+    padding: 3px 15px 3px 15px;
 }
 
 #btnOne, #btnTwo, #btnThree {
     cursor: pointer;
+    padding: 3px 15px 3px 15px;
 }
 
 .btn-container {
