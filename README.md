@@ -1,6 +1,6 @@
 # JavaScript Slider
 
-this was a quick exercise in DOM manipulation using JavaScript with the aim of creating a dynamic Image slider  which has both Prev/Next Buttons as well as Slide specific buttons for the user to navigate with.  
+this was a quick exercise in DOM manipulation using JavaScript with the aim of creating a dynamic image slider  made up of prev/next buttons as well as slide specific buttons for navigation functoinality  
 
 ### Objectives/ ToDos
 
